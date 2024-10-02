@@ -1,0 +1,171 @@
+body{
+    background-color: aqua;
+    margin: 0;
+    padding: 0%;
+}
+
+.presenta{
+    background: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.anclaLogo {
+    position: absolute;
+    padding: 15px 20px;
+}
+
+.imgLogo {
+    height: 70px;
+}
+
+nav {
+    background-color: black;
+    height: 90px;
+    width: 100%;
+}
+
+nav ul {
+    float: right;
+    margin-left: 90px;
+    margin-top: 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 90px;
+}
+
+nav ul li a {
+    color: yellow;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    font-size: 20px;
+    background: black;
+    color: red;
+    transition: 0.5s;
+}
+
+nav ul li img {
+    height: 25px;
+    padding-top: 10px;
+}
+
+.name{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color:black;
+}
+
+.certifi{
+    text-align: center;
+   
+  
+}
+
+.parra{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.escuela{
+    text-align: center;
+    background: yellow;
+
+}
+
+.imgescu{
+    height: 540px;
+    width: 50%;
+}
+.parrapresen{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.proxim{
+    color: red;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.lema{
+    text-align: center;
+    background: yellow;
+    color:black ;
+}
+
+.imgPreview{
+    width: 300px;
+    border-width: 5px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    height: 300px;
+}
+.imgPreview:hover {
+    width: 320px;
+    transition: 0.6s;
+    cursor: pointer;
+    border-width: 8px;
+    border-radius: 5px;
+    border-color: yellow;
+}
+.flexNive22 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color:rgba(2, 106, 113, 0.825);
+    border:black
+}
+.flexNive22 div {    
+    margin: 10px;
+    padding: 20px;
+    height: 430px;
+    color:blueviolet;
+}
+
+.flexNive22 div p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    font-weight: bold;
+    text-align:center;
+}
+.unoo{
+    text-align: center;
+    text-decoration: none;
+}
+.redSocial {
+    margin-top: 10px;
+    display: inline-block;
+    height: 40px;
+}
+
+.redSocial:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    text-decoration: transparent;
+}
+
+#redesSociales {
+    text-align: center;
+}
+
+#redesSociales a:link {
+    text-decoration: none;
+}
